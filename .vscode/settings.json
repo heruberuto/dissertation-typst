@@ -1,0 +1,22 @@
+{
+    // ── Tinymist (Typst LSP) ─────────────────────────────────────────────
+    "tinymist.outputPath": "aux/{name}",
+    "tinymist.exportPdf": "onSave",
+    "tinymist.formatterMode": "typstyle",
+    "tinymist.formatterPrintWidth": 100,
+    "tinymist.semanticTokens": "enable",
+    "tinymist.preview.refresh": "onSave",
+
+    // ── Editor ────────────────────────────────────────────────────────────
+    "editor.formatOnSave": false,
+    "editor.wordWrap": "on",
+    "[typst]": {
+        "editor.rulers": [100],
+        "editor.wordWrap": "off"
+    },
+
+    // ── File associations ─────────────────────────────────────────────────
+    "files.associations": {
+        "*.typ": "typst"
+    }
+}
