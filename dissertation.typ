@@ -32,4 +32,4 @@
 
 // ── Bibliography ──────────────────────────────────────────────────────────
 
-// #bibliography("dissertation.bib", style: "apa")
+#bibliography("dissertation.bib", style: "apa")
